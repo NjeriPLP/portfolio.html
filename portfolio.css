@@ -1,0 +1,40 @@
+header{
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+body{
+    margin: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#introduction{
+    padding: 50px;
+    background-color: #f8f9fa;
+}
+
+#skills{
+padding: 50px;
+background-color: #fff;
+}
+
+#contact{
+    padding: 50px 0;
+    background-color: #007bff;
+    color: #fff;
+}
+
+#skills ul li{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/*Media query for responsive design*/
+@media only screen and (max-width: 600px)  {
+    header{
+        padding: 15px;
+    }
+    #introduction, #skills, #contact {
+        padding: 30px 0;
+    }
+} 
